@@ -7,7 +7,19 @@
 </ion-header>
 
 <ion-content>
-    <ion-card class="welcome-card">
+  <ion-card>
+     <ion-card-header>
+      <ion-card-title>LocaForage Ionic tests</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button expand="block" (click)="testLocalForageDriver()">Test active driver</ion-button>
+      <ion-button expand="block" (click)="testLocalForageDropInstance()">Test dropInstance</ion-button>
+      <ion-button expand="block" (click)="testLocalForageObservable()">Test localforage-observable</ion-button>
+      <ion-button expand="block" (click)="testLocalForagePluralOperations()">Test plural operations</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+    <!-- <ion-card class="welcome-card">
       <ion-img src="/assets/shapes.svg"></ion-img>
       <ion-card-header>
         <ion-card-subtitle>Get Started</ion-card-subtitle>
@@ -37,5 +49,5 @@
         <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
         <ion-label>Theme Your App</ion-label>
       </ion-item>
-    </ion-list>
+    </ion-list> -->
 </ion-content>
