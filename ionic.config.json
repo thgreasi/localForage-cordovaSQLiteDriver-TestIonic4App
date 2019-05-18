@@ -1,5 +1,5 @@
 {
-  "name": "TestIonic4App",
+  "name": "localForage-cordovaSQLiteDriver-TestIonic4App",
   "integrations": {
     "cordova": {}
   },
